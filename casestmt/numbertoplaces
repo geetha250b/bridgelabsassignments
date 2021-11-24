@@ -1,0 +1,39 @@
+read -p "enter anumber" n
+
+case $n in
+1 )
+echo "ones"
+;;
+
+10 )
+echo "tens"
+;;
+
+100 )
+echo "Hundreads" ;;
+
+1000 )
+echo "thousand" ;;
+
+10000 )
+echo "ten thousands"
+;;
+
+100000 )
+echo "lack"
+;;
+
+1000000 )
+echo "ten lacks"
+;;
+
+10000000 )
+echo " one crore "
+;;
+
+*)
+echo "its not anumber "
+;;
+
+esac
+
